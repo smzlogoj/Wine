@@ -16,8 +16,8 @@ for(variable in colnames(mtcars)){
  print(paste(variable, media, sep = ' : '))
 }
 
-apply(mtcars, 2, mean)
-
+apply(mtcars, 2, mean) ### se mueve por columnas
+apply(mtcars, 1, mean) ### se mueve por filas
 
 
 contador <- 1
